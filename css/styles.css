@@ -1,0 +1,93 @@
+body{
+    /* background: -webkit-linear-gradient(left, #0072ff, #00c6ff); */
+    background-image: url("../imagenes/fondo2.jpg") !important; 
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact-form{
+    background: #fff no-repeat center center !important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 1rem;
+   /* opacity: 0.97; */
+    border-width: 25px !important;
+    border-color: #dc3545;
+   /*  background-image: url("../imagenes/fondo.jpg") !important;*/
+}
+
+.contact-form::before {
+    content: "";
+    position: absolute;
+    top: 7%;
+    left: 13%;
+    right: 13%;
+    bottom: 3%;
+    background: rgba(255, 255, 255, 0.7); /* Fondo blanco con opacidad */
+    border-radius: 1rem;
+    z-index: -1; /* Asegura que el pseudo-elemento esté detrás del contenido */
+}
+
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%; 
+}
+.contact-form form{
+    position: relative;
+    padding: 15% 10% 5% 10%;
+}
+
+.contact-form imput{
+    padding: 10%;
+}
+
+.contact-form form .row{
+    margin-top: 3%;
+    margin-bottom: -3%;
+}
+.contact-form h3{
+    margin-bottom: 2%;
+    margin-top: -20%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form h6{
+    text-align: center;
+    color: #aacaec;
+}
+
+.btnApagar, .btnEnviar {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    display: block;
+    margin: 0 auto; /* Esto centrará los botones */
+}
+
+.btnApagar {
+    background: #dc3545;
+    font-weight: 600;
+}
+
+.btnEnviar {
+    background-color: #0062cc;
+}
+
+input, textarea, select {
+    opacity: 1 !important;
+}
